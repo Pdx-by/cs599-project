@@ -113,3 +113,6 @@ PYTHONPATH=. python agent/react_agent.py
 - [√] Proposal（设计文档 + 架构图 + Spec 初稿）
 - [√] MVP（核心闭环 Demo：ReAct 推理 + RAG + MCP + 报告生成）
 - [√] Final（完整文档 + 代码 + 报告）
+
+## 开源项目：
+基于黑马程序扫地机器人客服agent，添加mcp，多agent等功能
