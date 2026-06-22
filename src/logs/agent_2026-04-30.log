@@ -1,0 +1,181 @@
+2026-04-30 09:10:19,315 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 09:10:19,315 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-04-30 09:10:22,922 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-04-30 09:10:22,922 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:10:22,923 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-04-30 09:10:22,924 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 09:10:22,924 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-04-30 09:10:27,517 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-04-30 09:10:27,517 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:10:27,518 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-04-30 09:10:27,519 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-30 09:10:27,519 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 1005
+2026-04-30 09:10:28,857 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-04-30 09:10:28,857 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:10:28,858 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-04-30 09:10:28,859 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-30 09:10:28,859 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-05
+2026-04-30 09:10:32,247 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-04-30 09:10:32,247 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1005', 'month': '2025-05'}
+2026-04-30 09:10:32,248 - agent - ERROR - middleware.py:31 - 工具fetch_external_data调用失败，原因：'NoneType' object is not subscriptable
+2026-04-30 09:13:23,232 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 09:13:23,232 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-04-30 09:13:25,307 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-04-30 09:13:25,307 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:13:25,308 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-04-30 09:13:25,309 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 09:13:25,310 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 1009
+2026-04-30 09:13:27,281 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-04-30 09:13:27,282 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:13:27,282 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-04-30 09:13:27,284 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-30 09:13:27,284 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-12
+2026-04-30 09:13:29,367 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-04-30 09:13:29,367 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:13:29,368 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-04-30 09:13:29,369 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-30 09:13:29,369 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-04-30 09:13:31,615 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-04-30 09:13:31,615 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1009', 'month': '2025-12'}
+2026-04-30 09:13:31,616 - agent - ERROR - middleware.py:31 - 工具fetch_external_data调用失败，原因：'NoneType' object is not subscriptable
+2026-04-30 09:14:26,906 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 09:14:26,906 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-04-30 09:14:30,145 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-04-30 09:14:30,145 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:14:30,146 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-04-30 09:14:30,147 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 09:14:30,147 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 1003
+2026-04-30 09:14:31,877 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-04-30 09:14:31,877 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:14:31,878 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-04-30 09:14:31,879 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-30 09:14:31,879 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-04
+2026-04-30 09:14:34,698 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-04-30 09:14:34,699 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:14:34,700 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-04-30 09:14:34,701 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-30 09:14:34,701 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-04-30 09:14:36,935 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-04-30 09:14:36,935 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1003', 'month': '2025-04'}
+2026-04-30 09:14:36,937 - agent - ERROR - middleware.py:31 - 工具fetch_external_data调用失败，原因：'NoneType' object is not subscriptable
+2026-04-30 09:18:08,030 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 09:18:08,030 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-04-30 09:18:10,346 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-04-30 09:18:10,346 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:18:10,347 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-04-30 09:18:10,348 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 09:18:10,348 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-04-30 09:18:12,905 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-04-30 09:18:12,905 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:18:12,906 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-04-30 09:18:12,907 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-30 09:18:12,908 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 1008
+2026-04-30 09:18:14,175 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-04-30 09:18:14,175 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:18:14,176 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-04-30 09:18:14,177 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-30 09:18:14,177 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-01
+2026-04-30 09:18:16,280 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-04-30 09:18:16,280 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1008', 'month': '2025-01'}
+2026-04-30 09:18:16,282 - agent - INFO - middleware.py:24 - [tool monitor]工具fetch_external_data调用成功
+2026-04-30 09:18:16,283 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有9条消息。
+2026-04-30 09:18:16,283 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"特征": "100㎡三居 | 三口之家 | 大理石", "效率": "覆盖率:86%\\n餐桌区域漏扫:1次/天\\n避障成功率:90%", "耗材": "主刷磨损:轻度\\n水箱加水:每日2次", "对比": "大理石地面清洁效果低于同类15%"}
+2026-04-30 09:18:19,664 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-30 09:18:19,664 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '大理石地面清洁技巧 扫地机器人'}
+2026-04-30 09:18:25,008 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-30 09:18:25,009 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有11条消息。
+2026-04-30 09:18:25,009 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 大理石地面清洁时，应使用扫地机器人的拖地模式，并在拖地后及时清理机器人底部水渍；每月对拖布支架进行除垢，防止水垢附着。
+2026-04-30 15:51:39,868 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 15:51:39,869 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-04-30 15:51:42,289 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-04-30 15:51:42,290 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 15:51:42,291 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-04-30 15:51:42,293 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 15:51:42,293 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-04-30 15:51:43,648 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-04-30 15:51:43,648 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 15:51:43,649 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-04-30 15:51:43,651 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-30 15:51:43,651 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 1003
+2026-04-30 15:51:44,701 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-04-30 15:51:44,701 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 15:51:44,702 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-04-30 15:51:44,704 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-30 15:51:44,704 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 2025-04
+2026-04-30 15:51:47,290 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-04-30 15:51:47,291 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1003', 'month': '2025-04'}
+2026-04-30 15:51:47,292 - agent - INFO - middleware.py:24 - [tool monitor]工具fetch_external_data调用成功
+2026-04-30 15:51:47,294 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有9条消息。
+2026-04-30 15:51:47,294 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | {"特征": "90㎡ | 1狗 | 短毛地毯", "效率": "毛发清理:93%\\n地毯增压使用:17次/月", "耗材": "胶刷更换:剩余45天\\n尘盒容量:每2天清理", "对比": "毛发处理效率前10%"}
+2026-04-30 15:51:49,553 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-30 15:51:49,553 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '宠物家庭扫地机器人保养建议'}
+2026-04-30 15:51:53,515 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-30 15:51:53,518 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有11条消息。
+2026-04-30 15:51:53,518 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 宠物家庭使用扫地机器人时，应每日用干软布擦拭机身外壳，及时清理防撞条缝隙中的毛发和线头；若机器人沾到宠物粪便，须立即用湿巾清理并以中性洗涤剂擦拭；每日检查边刷旋转是否卡顿，每周检查充电座电源适配器有无发热或异响；日常使用后将清扫模式调至“待机”以减少电量消耗。
+2026-04-30 15:51:54,908 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-30 15:51:54,908 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '地毯环境扫地机器人使用建议'}
+2026-04-30 15:51:58,714 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-30 15:51:58,716 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有13条消息。
+2026-04-30 15:51:58,716 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 短毛地毯环境：使用地毯增压功能后检查主刷是否复位，每周清理地毯边缘灰尘以防漏扫。长毛地毯环境：清扫后立即清理主刷和边刷上的纤维，关闭拖地功能以防地毯受潮发霉。
+2026-04-30 15:52:33,549 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 15:52:33,551 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-04-30 15:52:36,594 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-04-30 15:52:36,594 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 15:52:36,595 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-04-30 15:52:36,597 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 15:52:36,597 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 杭州
+2026-04-30 15:52:38,494 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-04-30 15:52:38,494 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '杭州'}
+2026-04-30 15:52:38,495 - agent - ERROR - middleware.py:32 - 工具get_weather调用失败，原因：'TavilySearch' object has no attribute 'search'
+2026-04-30 15:53:32,507 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 15:53:32,507 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-04-30 15:53:34,458 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-04-30 15:53:34,458 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 15:53:34,459 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-04-30 15:53:34,461 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 15:53:34,462 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 合肥
+2026-04-30 15:53:36,299 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-04-30 15:53:36,300 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '合肥'}
+2026-04-30 15:53:39,032 - agent - ERROR - middleware.py:32 - 工具get_weather调用失败，原因：0
+2026-04-30 15:58:10,068 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 15:58:10,068 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-04-30 15:58:12,104 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-04-30 15:58:12,104 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 15:58:12,105 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-04-30 15:58:12,107 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 15:58:12,107 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 深圳
+2026-04-30 15:58:14,309 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-04-30 15:58:14,309 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '深圳'}
+2026-04-30 15:58:15,852 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-04-30 15:58:15,854 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-30 15:58:15,854 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 深圳 - 百度
+http://weathernew.pae.baidu.com/weathernew/pc?query=%E5%B9%BF%E4%B8%9C%E6%B7%B1%E5%9C%B3%E5%A4%A9%E6%B0%94&srcid=4982&city_name=%E6%B7%B1%E5%9C%B3&province_name=%E5%B9%BF%E4%B8%9C
+生活气象指数 早上好，今日天气晴好，心情也要保持晴朗哦. 穿衣: 薄外套类. 18℃~25℃. 出游: 较适宜. 晴, 空气优. 洗车: 不适宜. 近期有大风. 化妆: 保湿. 空气湿度65.0%.
+2026-04-30 15:59:29,579 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 15:59:29,579 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-04-30 15:59:31,453 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-04-30 15:59:31,454 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 15:59:31,455 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-04-30 15:59:31,457 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 15:59:31,457 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 武汉
+2026-04-30 15:59:33,439 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-04-30 15:59:33,439 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '武汉'}
+2026-04-30 15:59:36,161 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-04-30 15:59:36,164 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-30 15:59:36,164 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | Wuhan天气状况：气温| 30天预报 - AQI.in
+https://www.aqi.in/weather/cn/china/hubei/wuhan
+# Wuhan Weather Conditions Current Temperature Level. ## **Wuhan**'s Locations Weather Conditions. ## Weather FAQs at Wuhan. What is the current temperature in Wuhan today - 29 四月 2026? The current temperature in Wuhan is 14°C (凉爽), with a feels-like temperature of 13°C. What are the current weather parameters in Wuhan today? Here is a complete overview of Wuhan's current weather conditions as of 02:00 AM 29 四月 2026:. What is the 10-day weather forecast for Wuhan from 02:00 AM 29 四月 2026? 16°C, Hum. 69% and Patchy rain nearby condition. 17°C, Hum. 86% and Heavy Rain condition. What is the monthly weather forecast for Wuhan in 四月 2026? How does the weather in Wuhan affect air quality? Weather directly impacts air quality in Wuhan. Prana Air Weather Station with air quality monitoring device. Prana Air Weather Station with air quality monitoring device. Prana Air Weather Station with air quality monitoring device. Prana Air Weather Station with air quality monitoring device.
+2026-04-30 16:08:44,295 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 16:08:44,295 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-04-30 16:08:46,779 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-04-30 16:08:46,780 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 16:08:46,781 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-04-30 16:08:46,782 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 16:08:46,782 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 武汉
+2026-04-30 16:08:49,379 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-04-30 16:08:49,379 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '武汉'}
+2026-04-30 16:08:50,255 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-04-30 16:08:50,257 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-30 16:08:50,257 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | Wuhan天气状况：气温| 30天预报 - AQI.in
+https://www.aqi.in/weather/cn/china/hubei/wuhan
+# Wuhan Weather Conditions Current Temperature Level. ## **Wuhan**'s Locations Weather Conditions. ## Weather FAQs at Wuhan. What is the current temperature in Wuhan today - 29 四月 2026? The current temperature in Wuhan is 14°C (凉爽), with a feels-like temperature of 13°C. What are the current weather parameters in Wuhan today? Here is a complete overview of Wuhan's current weather conditions as of 02:00 AM 29 四月 2026:. What is the 10-day weather forecast for Wuhan from 02:00 AM 29 四月 2026? 16°C, Hum. 69% and Patchy rain nearby condition. 17°C, Hum. 86% and Heavy Rain condition. What is the monthly weather forecast for Wuhan in 四月 2026? How does the weather in Wuhan affect air quality? Weather directly impacts air quality in Wuhan. Prana Air Weather Station with air quality monitoring device. Prana Air Weather Station with air quality monitoring device. Prana Air Weather Station with air quality monitoring device. Prana Air Weather Station with air quality monitoring device.

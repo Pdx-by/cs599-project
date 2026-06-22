@@ -1,0 +1,18 @@
+2026-04-23 10:31:54,595 - agent - ERROR - vector_store.py:88 - [加载知识库]处理文件 /data/users/myx/study/Ai_Application/AgentProject/data/故障排除.txt 时发生错误: 'md5_record_file'
+2026-04-23 10:31:58,364 - agent - ERROR - vector_store.py:88 - [加载知识库]处理文件 /data/users/myx/study/Ai_Application/AgentProject/data/维护保养.txt 时发生错误: 'md5_record_file'
+2026-04-23 10:32:01,151 - agent - ERROR - vector_store.py:88 - [加载知识库]处理文件 /data/users/myx/study/Ai_Application/AgentProject/data/扫地机器人100问.pdf 时发生错误: 'md5_record_file'
+2026-04-23 10:32:04,611 - agent - ERROR - vector_store.py:88 - [加载知识库]处理文件 /data/users/myx/study/Ai_Application/AgentProject/data/扫拖一体机器人100问.txt 时发生错误: 'md5_record_file'
+2026-04-23 10:32:09,095 - agent - ERROR - vector_store.py:88 - [加载知识库]处理文件 /data/users/myx/study/Ai_Application/AgentProject/data/选购指南.txt 时发生错误: 'md5_record_file'
+2026-04-23 10:32:12,234 - agent - ERROR - vector_store.py:88 - [加载知识库]处理文件 /data/users/myx/study/Ai_Application/AgentProject/data/扫地机器人100问2.txt 时发生错误: 'md5_record_file'
+2026-04-23 10:33:58,138 - agent - INFO - vector_store.py:86 - [加载知识库]文件 /data/users/myx/study/Ai_Application/AgentProject/data/故障排除.txt 处理完成，已存入知识库
+2026-04-23 10:34:02,057 - agent - INFO - vector_store.py:86 - [加载知识库]文件 /data/users/myx/study/Ai_Application/AgentProject/data/维护保养.txt 处理完成，已存入知识库
+2026-04-23 10:34:04,996 - agent - INFO - vector_store.py:86 - [加载知识库]文件 /data/users/myx/study/Ai_Application/AgentProject/data/扫地机器人100问.pdf 处理完成，已存入知识库
+2026-04-23 10:34:09,081 - agent - INFO - vector_store.py:86 - [加载知识库]文件 /data/users/myx/study/Ai_Application/AgentProject/data/扫拖一体机器人100问.txt 处理完成，已存入知识库
+2026-04-23 10:34:12,355 - agent - INFO - vector_store.py:86 - [加载知识库]文件 /data/users/myx/study/Ai_Application/AgentProject/data/选购指南.txt 处理完成，已存入知识库
+2026-04-23 10:34:15,753 - agent - INFO - vector_store.py:86 - [加载知识库]文件 /data/users/myx/study/Ai_Application/AgentProject/data/扫地机器人100问2.txt 处理完成，已存入知识库
+2026-04-23 10:34:43,455 - agent - INFO - vector_store.py:71 - [加载知识库]/data/users/myx/study/Ai_Application/AgentProject/data/故障排除.txt内容已经存在知识库内，跳过
+2026-04-23 10:34:43,456 - agent - INFO - vector_store.py:71 - [加载知识库]/data/users/myx/study/Ai_Application/AgentProject/data/维护保养.txt内容已经存在知识库内，跳过
+2026-04-23 10:34:43,457 - agent - INFO - vector_store.py:71 - [加载知识库]/data/users/myx/study/Ai_Application/AgentProject/data/扫地机器人100问.pdf内容已经存在知识库内，跳过
+2026-04-23 10:34:43,457 - agent - INFO - vector_store.py:71 - [加载知识库]/data/users/myx/study/Ai_Application/AgentProject/data/扫拖一体机器人100问.txt内容已经存在知识库内，跳过
+2026-04-23 10:34:43,458 - agent - INFO - vector_store.py:71 - [加载知识库]/data/users/myx/study/Ai_Application/AgentProject/data/选购指南.txt内容已经存在知识库内，跳过
+2026-04-23 10:34:43,458 - agent - INFO - vector_store.py:71 - [加载知识库]/data/users/myx/study/Ai_Application/AgentProject/data/扫地机器人100问2.txt内容已经存在知识库内，跳过

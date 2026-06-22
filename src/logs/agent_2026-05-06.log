@@ -1,0 +1,174 @@
+2026-05-06 08:43:12,213 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 08:43:12,213 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 08:43:13,835 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-05-06 08:43:13,836 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-05-06 08:43:13,836 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-05-06 08:43:13,838 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 08:43:13,838 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 武汉
+2026-05-06 08:43:16,546 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-05-06 08:43:16,546 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '武汉'}
+2026-05-06 08:43:17,836 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-05-06 08:43:17,839 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 08:43:17,839 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | Wuhan, Hubei 天氣預測
+https://www.msn.com/zh-tw/weather/forecast/in-Wuhan,%20%20%20%20%20Hubei
+汽車 · 影音 影音. Ninnescah, 堪薩斯州, 美國. 最近存取的位置. 多雲. Pretty Prairie, 堪薩斯州, 美國. 目前天氣. 19:00. 多雲 12°C. 體感5°. 多雲.
+2026-05-06 10:41:00,136 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:41:00,136 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:41:02,745 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:41:02,745 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-05-06 10:41:02,746 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:41:02,747 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:41:02,748 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 武汉
+2026-05-06 10:41:04,446 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-05-06 10:41:04,446 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '武汉'}
+2026-05-06 10:41:04,447 - agent - ERROR - middleware.py:32 - 工具get_weather调用失败，原因：StructuredTool does not support sync invocation.
+2026-05-06 10:42:56,604 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:42:56,604 - agent - DEBUG - middleware.py:43 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:42:58,667 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:42:58,668 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-05-06 10:42:58,669 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:42:58,671 - agent - INFO - middleware.py:41 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:42:58,671 - agent - DEBUG - middleware.py:43 - [log_before_model]ToolMessage | 武汉
+2026-05-06 10:43:00,509 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-05-06 10:43:00,510 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '武汉'}
+2026-05-06 10:43:00,510 - agent - ERROR - middleware.py:32 - 工具get_weather调用失败，原因：StructuredTool does not support sync invocation.
+2026-05-06 10:47:04,900 - agent - INFO - middleware.py:45 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:47:04,900 - agent - DEBUG - middleware.py:47 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:47:07,014 - agent - INFO - middleware.py:20 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:47:07,014 - agent - INFO - middleware.py:21 - [tool monitor]传入参数：{}
+2026-05-06 10:47:07,016 - agent - INFO - middleware.py:28 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:47:07,018 - agent - INFO - middleware.py:45 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:47:07,018 - agent - DEBUG - middleware.py:47 - [log_before_model]ToolMessage | 武汉
+2026-05-06 10:47:09,095 - agent - INFO - middleware.py:20 - [tool monitor]执行工具：get_weather
+2026-05-06 10:47:09,095 - agent - INFO - middleware.py:21 - [tool monitor]传入参数：{'city': '武汉'}
+2026-05-06 10:47:11,402 - agent - INFO - middleware.py:28 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:49:22,488 - agent - INFO - middleware.py:45 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:49:22,488 - agent - DEBUG - middleware.py:47 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:49:25,158 - agent - INFO - middleware.py:20 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:49:25,158 - agent - INFO - middleware.py:21 - [tool monitor]传入参数：{}
+2026-05-06 10:49:25,160 - agent - INFO - middleware.py:28 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:49:25,162 - agent - INFO - middleware.py:45 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:49:25,163 - agent - DEBUG - middleware.py:47 - [log_before_model]ToolMessage | 武汉
+2026-05-06 10:49:26,931 - agent - INFO - middleware.py:20 - [tool monitor]执行工具：get_weather
+2026-05-06 10:49:26,931 - agent - INFO - middleware.py:21 - [tool monitor]传入参数：{'city': '武汉'}
+2026-05-06 10:49:27,760 - agent - INFO - middleware.py:28 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:49:27,762 - agent - INFO - middleware.py:45 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 10:49:39,332 - agent - INFO - middleware.py:45 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:49:39,332 - agent - DEBUG - middleware.py:47 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:49:41,816 - agent - INFO - middleware.py:20 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:49:41,816 - agent - INFO - middleware.py:21 - [tool monitor]传入参数：{}
+2026-05-06 10:49:41,818 - agent - INFO - middleware.py:28 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:49:41,820 - agent - INFO - middleware.py:45 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:49:41,821 - agent - DEBUG - middleware.py:47 - [log_before_model]ToolMessage | 武汉
+2026-05-06 10:49:44,108 - agent - INFO - middleware.py:20 - [tool monitor]执行工具：get_weather
+2026-05-06 10:49:44,109 - agent - INFO - middleware.py:21 - [tool monitor]传入参数：{'city': '武汉'}
+2026-05-06 10:49:45,996 - agent - INFO - middleware.py:28 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:49:45,999 - agent - INFO - middleware.py:45 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 10:51:01,039 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:51:01,039 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:51:03,116 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:51:03,116 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-05-06 10:51:03,119 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:51:03,121 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:51:03,121 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 武汉
+2026-05-06 10:51:06,433 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-05-06 10:51:06,434 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '武汉'}
+2026-05-06 10:51:07,762 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:51:07,765 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 10:51:07,765 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | Wuhan, Hubei 天氣預測 - MSN
+https://www.msn.com/zh-tw/weather/forecast/in-Wuhan,%20%20%20%20%20Hubei
+汽車 · 影音 影音. Ninnescah, 堪薩斯州, 美國. 最近存取的位置. 多雲. Pretty Prairie, 堪薩斯州, 美國. 目前天氣. 19:00. 多雲 12°C. 體感5°. 多雲.
+2026-05-06 10:51:40,485 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:51:40,486 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:51:42,717 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:51:42,717 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-05-06 10:51:42,720 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:51:42,723 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:51:42,723 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 武汉
+2026-05-06 10:51:44,839 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-05-06 10:51:44,840 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '武汉'}
+2026-05-06 10:51:46,948 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:51:46,950 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 10:51:46,950 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | Wuhan, Hubei 天氣預測 - MSN
+https://www.msn.com/zh-tw/weather/forecast/in-Wuhan,%20%20%20%20%20Hubei
+汽車 · 影音 影音. Ninnescah, 堪薩斯州, 美國. 最近存取的位置. 多雲. Pretty Prairie, 堪薩斯州, 美國. 目前天氣. 19:00. 多雲 12°C. 體感5°. 多雲.
+2026-05-06 10:52:21,322 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:52:21,322 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:52:28,489 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:52:28,489 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-05-06 10:52:28,491 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:52:28,494 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:52:28,494 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 北京
+2026-05-06 10:52:30,254 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-05-06 10:52:30,254 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '北京'}
+2026-05-06 10:52:33,177 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:52:33,180 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 10:52:33,180 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 北京 - 中国气象局-天气预报-城市预报
+https://weather.cma.cn/web/text/HB/ABJ.html
+| 北京 | 晴 | 西北风 | 微风 | 21℃ | 多云 | 北风 | 微风 | 8℃ | 详情>> |. | 大兴 | 晴 | 西北风 | 3~4级 | 21℃ | 多云 | 北风 | 微风 | 7℃ | 详情>> |. | 延庆 | 晴 | 北风 | 3~4级 | 16℃ | 多云 | 西北风 | 微风 | 0℃ | 详情>> |. | 房山 | 晴 | 西北风 | 3~4级 | 21℃ | 多云 | 北风 | 微风 | 7℃ | 详情>> |. | 通州 | 晴 | 西北风 | 3~4级 | 20℃ | 多云 | 北风 | 微风 | 5℃ | 详情>> |. | 北京 | 多云 | 南风 | 微风 | 16℃ | 晴 | 南风 | 微风 | 4℃ | 详情>> |. | 昌平 | 多云 | 南风 | 微风 | 15℃ | 晴 | 东北风 | 微风 | 4℃ | 详情>> |. | 北京 | 晴 | 南风 | 微风 | 18℃ | 晴 | 北风 | 微风 | 7℃ | 详情>> |.
+2026-05-06 10:53:04,220 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:53:04,220 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:53:06,039 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:53:06,039 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-05-06 10:53:06,041 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:53:06,044 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:53:06,044 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 武汉洪山区
+2026-05-06 10:53:09,353 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-05-06 10:53:09,354 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '武汉'}
+2026-05-06 10:53:12,100 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:53:12,102 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 10:53:12,103 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | Wuhan, Hubei 天氣預測 - MSN
+https://www.msn.com/zh-tw/weather/forecast/in-Wuhan,%20%20%20%20%20Hubei
+汽車 · 影音 影音. Ninnescah, 堪薩斯州, 美國. 最近存取的位置. 多雲. Pretty Prairie, 堪薩斯州, 美國. 目前天氣. 19:00. 多雲 12°C. 體感5°. 多雲.
+2026-05-06 10:53:26,541 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:53:26,541 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:53:29,354 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:53:29,354 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-05-06 10:53:29,356 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:53:29,358 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:53:29,358 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 深圳
+2026-05-06 10:53:31,103 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-05-06 10:53:31,103 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '深圳'}
+2026-05-06 10:53:32,628 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:53:32,630 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 10:53:32,631 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | Shenzhen Weather-深圳市气象局（台）
+http://weather.sz.gov.cn/en/en_shenzhentianqi/
+深圳市气象局门户网站为您提供权威、及时、准确的深圳天气预警、天气预报、天气实况、台风路径、深圳气候等信息服务，为深圳及其周边城市的生产生活提供全面可靠的气象
+2026-05-06 10:53:37,104 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：rag_summarize
+2026-05-06 10:53:37,105 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'query': '潮湿或多雨天气下扫拖一体机器人使用建议'}
+2026-05-06 10:53:40,165 - agent - INFO - middleware.py:46 - [tool monitor]工具rag_summarize调用成功
+2026-05-06 10:53:40,168 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有7条消息。
+2026-05-06 10:53:40,168 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 在潮湿或多雨天气（如南方回南天）下，应减少扫拖一体机器人的拖地频次，使用干拖模式；机器人机身和耗材需每日晾干，并每周进行除湿处理。
+2026-05-06 10:55:08,301 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:55:08,302 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？
+2026-05-06 10:55:10,752 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:55:10,752 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-05-06 10:55:10,755 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:55:10,758 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:55:10,758 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 上海
+2026-05-06 10:55:12,811 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-05-06 10:55:12,812 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '上海'}
+2026-05-06 10:55:15,339 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:55:15,342 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 10:55:15,342 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 上海目前天氣 - Yahoo Weather
+https://weather.yahoo.com/zh-hant-tw/cn/%E4%B8%8A%E6%B5%B7/
+上海目前天氣. 查看在地預報，包含溫度、降雨、氣象訊息通知，並查看氣象雷達地圖。 Advertisement. 上海市. 晴朗. 21°. 21°. Advertisement. 所有國家/地區.
+2026-05-06 10:59:18,680 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-06 10:59:18,680 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？使用扫地机器人要注意什么？
+2026-05-06 10:59:20,670 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-05-06 10:59:20,670 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-05-06 10:59:20,672 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-05-06 10:59:20,675 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-06 10:59:20,675 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 上海
+2026-05-06 10:59:23,059 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-05-06 10:59:23,059 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '上海'}
+2026-05-06 10:59:23,839 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-05-06 10:59:23,842 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-06 10:59:23,843 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 上海目前天氣 - Yahoo Weather
+https://weather.yahoo.com/zh-hant-tw/cn/%E4%B8%8A%E6%B5%B7/
+上海目前天氣. 查看在地預報，包含溫度、降雨、氣象訊息通知，並查看氣象雷達地圖。 Advertisement. 上海市. 晴朗. 21°. 21°. Advertisement. 所有國家/地區.
+2026-05-06 10:59:28,063 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：rag_summarize
+2026-05-06 10:59:28,063 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'query': '晴朗天气21度使用扫地机器人注意事项'}
+2026-05-06 10:59:31,409 - agent - INFO - middleware.py:46 - [tool monitor]工具rag_summarize调用成功
+2026-05-06 10:59:31,412 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有7条消息。
+2026-05-06 10:59:31,412 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 晴朗天气21度属适宜使用扫地机器人的环境，参考资料中未针对该具体条件列出特殊注意事项。但根据通用维护建议，使用前应清理机器人底部及传感器，避免灰尘遮挡；若环境含镜面或玻璃家具，需提前擦拭避障传感器以防建图错乱；在低矮家具区域，建议手动辅助清理死角。

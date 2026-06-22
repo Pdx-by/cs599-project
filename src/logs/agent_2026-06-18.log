@@ -1,0 +1,72 @@
+2026-06-18 14:22:23,895 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-18 14:22:23,895 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？使用扫地机器人要注意什么？
+2026-06-18 14:22:35,616 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-06-18 14:22:35,616 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-06-18 14:22:35,617 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-06-18 14:22:35,619 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '北京市'}
+2026-06-18 14:22:35,646 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-06-18 14:22:38,630 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-06-18 14:22:38,633 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有4条消息。
+2026-06-18 14:22:38,633 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 天氣- 北京市- 14天預報：氣溫、風和雷達 - Ventusky
+https://www.ventusky.com/zh-tw/beijing
+| 晴朗的天空 30 °C 0 mm 0 %  東南  8 km/h | 晴朗的天空 29 °C 0 mm 0 %  南  7 km/h | 晴朗的天空 29 °C 0 mm 0 %  南  5 km/h | 晴朗的天空，幾朵雲 27 °C 0 mm 0 %  南  3 km/h | 晴朗的天空，幾朵雲 26 °C 0 mm 0 %  東  3 km/h | 高雲 26 °C 0 mm 0 %  東南  1 km/h | 高雲 25 °C 0 mm 0 %  南  3 km/h | 灰濛蒙 25 °C 0 mm 0 %  東  3 km/h | 大部分多雲 25 °C 0 mm 0 %  東南  1 km/h | 大部分多雲 24 °C 0 mm 0 %  東北  1 km/h | 大部分多雲 24 °C 0 mm 0 %  東北  1 km/h | 大部分多雲 24 °C 0 mm 0 %  東南  1 km/h | 大部分多雲 24 °C 0 mm 0 %  東  3 km/h | 灰濛蒙 23 °C 0 mm 0 %  東北  4 km/h | 灰濛蒙 24 °C 0 mm 0 %  東北  4 km/h | 灰濛蒙 24 °C 0 mm 0 %  東北  4 km/h | 灰濛蒙 25 °C 0 mm 0 %  東  3 km/h | 灰濛蒙 26 °C 0 mm 10 %  東  3 km/h | 大部分多雲 27 °C 0 mm 10 %  東  5 km/h | 大部分多雲 28 °C 0 mm 0 %  東南  6 km/h | 灰濛蒙 29 °C 0 mm 0 %  東南  8 km/h | 灰濛蒙 29 °C 0 mm 10 %  南  7 km/h | 灰濛蒙 29 °C 0 mm 0 %  南  7 km/h | 灰濛蒙 29 °C 0 mm 0 %  南  7 km/h | 灰濛蒙 29 °C 0 mm 10 %  南  7 km/h |.
+2026-06-18 14:22:44,308 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-06-18 14:22:44,308 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '上海市'}
+2026-06-18 14:22:46,318 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-06-18 14:22:46,321 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有6条消息。
+2026-06-18 14:22:46,321 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 天氣- 上海市- 14天預報：氣溫、風和雷達 - Ventusky
+https://www.ventusky.com/zh-tw/shanghai
+| 多雲 23 °C 0 mm 0 %  東  3 km/h | 灰濛蒙 23 °C 0 mm 10 %  東  3 km/h | 灰濛蒙 25 °C 0 mm 0 %  東  5 km/h | 灰濛蒙 28 °C 0 mm 10 %  東  7 km/h | 大部分多雲 29 °C 0 mm 20 %  東  9 km/h | 灰濛蒙 26 °C 0 mm 40 %  東  9 km/h | 灰濛蒙 25 °C 0 mm 30 %  東  9 km/h | 灰濛蒙 24 °C 0 mm 40 %  東  5 km/h |.
+2026-06-18 16:06:58,521 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-18 16:06:58,521 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？使用扫地机器人要注意什么？
+2026-06-18 16:07:02,028 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-06-18 16:07:02,028 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-06-18 16:07:02,028 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-06-18 16:07:02,030 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '杭州市'}
+2026-06-18 16:07:02,057 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-06-18 16:07:05,107 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-06-18 16:07:05,110 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有4条消息。
+2026-06-18 16:07:05,110 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 天气- 杭州市- 14天预报：气温、风和雷达 - Ventusky
+https://www.ventusky.com/zh/hangzhou
+| 大部分多云 25 °C 0 mm 0 %  东  3 km/h | 多雾路段 24 °C 0 mm 10 %  东北  1 km/h | 多云 26 °C 0 mm 10 %  东北  1 km/h | 灰蒙蒙 29 °C 0 mm 40 %  南  3 km/h | 灰蒙蒙 28 °C 0 mm 50 %  东  3 km/h | 可能有雨、雷阵雨 27 °C 7 mm 80 %  东  7 km/h | 可能有雨、雷阵雨 26 °C 6 mm 70 %  东  7 km/h | 大部分多云 25 °C 0 mm 30 %  东  5 km/h |.
+2026-06-18 16:19:01,096 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-18 16:19:01,097 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 今天天气怎么样？使用扫地机器人要注意什么？
+2026-06-18 16:19:12,190 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_location
+2026-06-18 16:19:12,191 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-06-18 16:19:12,193 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_location调用成功
+2026-06-18 16:19:12,196 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-18 16:19:12,197 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 上海
+2026-06-18 16:19:15,523 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_weather
+2026-06-18 16:19:15,523 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'city': '上海'}
+2026-06-18 16:19:17,379 - agent - INFO - middleware.py:46 - [tool monitor]工具get_weather调用成功
+2026-06-18 16:19:17,382 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有5条消息。
+2026-06-18 16:19:17,383 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 上海 - 百度
+https://weathernew.pae.baidu.com/weathernew/pc?query=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E6%B0%94&srcid=4982&forecast=long_day_forecast
+生活气象指数 早上好，天气不好，也记得让心情保持舒畅哦. 穿衣: 衬衫类. 24℃~30℃. 感冒: 易发. 早晚温差大. 出游: 不适宜. 阴转小雨. 洗车: 不适宜. 近期有降雨. 未来40天
+2026-06-18 16:25:51,981 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-18 16:25:51,981 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 小户型适合哪些扫地机器人？
+2026-06-18 16:26:00,315 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：rag_summarize
+2026-06-18 16:26:00,315 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'query': '小户型 扫地机器人 选购'}
+2026-06-18 16:26:06,736 - agent - INFO - middleware.py:46 - [tool monitor]工具rag_summarize调用成功
+2026-06-18 16:26:06,739 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-18 16:26:06,739 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 对于小户型选购扫地机器人，建议优先考虑轻便灵活的机型，基础激光导航机型即可满足需求，如米家1C、石头T4。家用建议选择吸力≥3000Pa的机型，若家中有地毯则需≥4000Pa，并且最好支持吸力调节功能以适应不同地面清洁需求。
+2026-06-18 16:30:50,211 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-18 16:30:50,211 - agent - DEBUG - middleware.py:66 - [log_before_model]HumanMessage | 生成使用报告
+2026-06-18 16:30:54,609 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_user_id
+2026-06-18 16:30:54,611 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-06-18 16:30:54,613 - agent - INFO - middleware.py:46 - [tool monitor]工具get_user_id调用成功
+2026-06-18 16:30:54,616 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-18 16:30:54,616 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 1001
+2026-06-18 16:31:01,498 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：get_current_month
+2026-06-18 16:31:01,498 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-06-18 16:31:01,501 - agent - INFO - middleware.py:46 - [tool monitor]工具get_current_month调用成功
+2026-06-18 16:31:01,504 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有5条消息。
+2026-06-18 16:31:01,504 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | 2025-05
+2026-06-18 16:31:07,046 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：fill_context_for_report
+2026-06-18 16:31:07,046 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{}
+2026-06-18 16:31:07,046 - agent - INFO - middleware.py:38 - [tool monitor]执行工具：fetch_external_data
+2026-06-18 16:31:07,046 - agent - INFO - middleware.py:39 - [tool monitor]传入参数：{'month': '2025-05', 'user_id': '1001'}
+2026-06-18 16:31:07,051 - agent - INFO - middleware.py:46 - [tool monitor]工具fill_context_for_report调用成功
+2026-06-18 16:31:07,070 - agent - INFO - middleware.py:46 - [tool monitor]工具fetch_external_data调用成功
+2026-06-18 16:31:07,073 - agent - INFO - middleware.py:63 - [log_before_model]即将调用模型，带有8条消息。
+2026-06-18 16:31:07,073 - agent - DEBUG - middleware.py:66 - [log_before_model]ToolMessage | {"特征": "65㎡公寓 | 单身 | 木地板", "效率": "覆盖率:89%\\n日均清扫:49㎡\\n无漏扫区域", "耗材": "主刷寿命:剩余40天\\nHEPA滤网:剩余20%", "对比": "优于80%同面积用户（清洁效率拉满）"}
